@@ -27,6 +27,7 @@ TIMEFRAMES: Dict[str, Dict[str, Any]] = {
     "2m": {"timedelta": timedelta(minutes=2), "interval_ms": 120000},
     "5m": {"timedelta": timedelta(minutes=5), "interval_ms": 300000},
     "15m": {"timedelta": timedelta(minutes=15), "interval_ms": 900000},
+    "20m": {"timedelta": timedelta(minutes=20), "interval_ms": 1200000},
     "30m": {"timedelta": timedelta(minutes=30), "interval_ms": 1800000},
     "1h": {"timedelta": timedelta(hours=1), "interval_ms": 3600000},
     "2h": {"timedelta": timedelta(hours=2), "interval_ms": 7200000},
